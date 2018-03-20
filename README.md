@@ -20,3 +20,4 @@ This round 0 key is print in the form of
 So to use this key in the online AES encrypting website, you will have to remove out the " ,0x" from that printed line, as "0x" is the default prefix for printing hexadecimal numbers and I was unable to find a way to remove them while printing.
 
 P.S.: a log.txt file is also created while running this script, it contains all the values of M and M' where the XOR of their respective S-Box values are equal to XOR of the respective byte of ciphertext and faulty ciphertext.
+
